@@ -3,16 +3,16 @@
 
 # Multithreaded TCP Chat
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a multithreaded chat system implemented in Python using TCP sockets.
 It supports communication between a server and multiple clients, allowing both **public (broadcast) messages** and **private messages** between users.
 
 ---
 
-## ⚙️ Features
+##  Features
 
-### 🔹 Server
+###  Server
 
 * **Multithreading** – Handles multiple clients simultaneously.
 * **Broadcast Messaging** – Sends messages to all connected clients except the sender.
@@ -24,7 +24,7 @@ It supports communication between a server and multiple clients, allowing both *
 * **Connection Management** – Keeps track of connected users, removes disconnected clients, and notifies others.
 * **Graceful Shutdown** – Optionally, the server can notify all clients when shutting down.
 
-### 🔹 Client
+###  Client
 
 * **Username Login** – Prompts the user for a username when connecting.
 * **Public Messaging** – Sends messages to all connected users.
@@ -35,7 +35,7 @@ It supports communication between a server and multiple clients, allowing both *
 
 ---
 
-## 🖥️ Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 
@@ -64,7 +64,7 @@ You will be prompted to enter a username.
 
 ---
 
-## 📡 Example Run
+##  Example Run
 
 ### 1. Multiple Clients Connect
 
@@ -114,7 +114,7 @@ Sam has disconnected.
 
 ---
 
-## 📂 Project Files
+##  Project Files
 
 * **server.py** – Handles client connections, broadcasting, private messaging, and connection management.
 * **client.py** – Connects to the server, sends/receives messages, supports private and public chat.
@@ -122,7 +122,7 @@ Sam has disconnected.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * GUI interface for easier interaction.
 * Encrypted messaging.
