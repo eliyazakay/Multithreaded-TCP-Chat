@@ -128,5 +128,14 @@ Sam has disconnected.
 * Encrypted messaging.
 * User authentication system.
 
+Author
+Eliya Zakay
+Computer Science Student, HIT College
+📞 +972-54-5874150
+📧 Eliyazak3@gmail.com
+
+
+
+
 ---
 
